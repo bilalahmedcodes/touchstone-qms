@@ -1,0 +1,22 @@
+.starrr {
+    display: inline-block;
+}
+.fa-star {
+    font-size: 25px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-decoration: none;
+}
+.fa-star.full {
+    font-size: 25px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #ffd119;
+    text-decoration: none;
+}
+.fa-star a:hover,
+.fa-star a:focus,
+.fa-star a:visited {
+    color: #ffd119;
+}

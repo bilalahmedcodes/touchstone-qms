@@ -1,0 +1,232 @@
+.validate-error {
+    margin-bottom: 15px;
+    color: red;
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.select2-container .select2-selection--single {
+    height: 38px !important;
+    border: 1px solid #ced4da;
+}
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #ced4da;
+}
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    line-height: 32px;
+    padding-left: 0px;
+}
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow
+    b {
+    margin-top: 6px;
+}
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice__remove {
+    color: #fff;
+}
+.pagination {
+    float: right !important;
+}
+.page-counts {
+    margin-top: 13px;
+}
+.action {
+    width: 180px;
+}
+.table-bordered td,
+.table-bordered th {
+    vertical-align: middle;
+}
+.card-body > .table > thead > tr > th a {
+    color: inherit !important;
+}
+.card-footer {
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.btn-schedule::after {
+    margin-left: 8px;
+}
+
+.search-area {
+    margin-bottom: 20px;
+}
+.search-area h4 {
+    margin-top: 3px;
+}
+.search-area .button-area {
+    text-align: right;
+}
+#search {
+    display: none;
+}
+
+.form-group label span {
+    color: red;
+    font-size: 12px;
+}
+
+.item-reviews {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.item-reviews li {
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 15px;
+}
+.item-reviews li:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+.item-reviews li .starrr {
+    margin-bottom: 10px;
+}
+.item-reviews li .starrr i {
+    font-size: 20px;
+}
+
+.notifications .dropdown-item {
+    border-bottom: 1px solid #dfdfdf;
+}
+.notifications .dropdown-item:last-child {
+    border-bottom: none;
+}
+.notifications .dropdown-item h6 {
+    margin: 0px;
+    font-size: 15px;
+}
+.notifications .dropdown-item p {
+    margin: 0px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+/* category */
+.category .title{
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.category .title h4{
+    margin: 0px;
+}
+.category .title ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    margin-top: -25px;
+    margin-bottom: 5px;
+    margin-right: 12px;
+}
+.category .title ul li{
+    display: inline-block;
+}
+.category .title ul li a{
+    width: 30px;
+}
+
+.category .data-points .table{
+    font-size: 15px;
+}
+.category .data-points .table tr:first-child td{
+    border: none;
+}
+.category .data-points .table tr:first-child th{
+    border-top: 0px;
+}
+.category .data-points .table tr .action{
+    text-align: right;
+}
+.category .data-points .table tr .action a, .category .data-points .table tr .action button, .category .title ul li button{
+    width: 30px;
+}
+
+.category .data-points .table tr .radios{
+    text-align: right;
+}
+.category .data-points .table tr .radios .radio-inline{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.category .data-points .table tr .radios input[type=radio]{
+    margin: 0px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.category .data-points .table tr .radios label{
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0px;
+}
+
+
+.table tr td.action form{
+    display: inline-block;
+}
+
+/* for md */
+
+.custom-switch.custom-switch-md .custom-control-label {
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.custom-switch.custom-switch-md .custom-control-label::before {
+    height: 1.5rem;
+    width: calc(2rem + 0.75rem);
+    border-radius: 3rem;
+}
+
+.custom-switch.custom-switch-md .custom-control-label::after {
+    width: calc(1.5rem - 4px);
+    height: calc(1.5rem - 4px);
+    border-radius: calc(2rem - (1.5rem / 2));
+}
+
+.custom-switch.custom-switch-md .custom-control-input:checked ~ .custom-control-label::after {
+    transform: translateX(calc(1.5rem - 0.25rem));
+}
+
+.timer-area{
+    position: fixed;
+    right: 20px;
+    z-index: 10000;
+    bottom: 30px;
+}
+
+.timer-area .timer{
+    font-size: 18px;
+    background-color: #007bff;
+    padding: 2px 20px;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    padding-left: 35px;
+}
+
+.timer-area .timer:before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f017";
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    font-size: 16px;
+    top: 3px;
+}

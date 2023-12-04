@@ -1,0 +1,76 @@
+[
+    {
+        "name": "My Self",
+        "category_id": "1"
+    },
+    {
+        "name": "My Company",
+        "category_id": "1"
+    },
+    {
+        "name": "Reason for the call",
+        
+        "category_id": "1"
+    },
+    {
+        "name": "Home Ownership & Address",
+        
+        "category_id": "2"
+    },
+    {
+        "name": "Single Family / House Type",
+        
+        "category_id": "2"
+    },
+    {
+        "name": "Bill",
+        
+        "category_id": "2"
+    },
+    {
+        "name": "Credit Score",
+        
+        "category_id": "2"
+    },
+    {
+        "name": "Shades",
+        
+        "category_id": "2"
+    },
+    {
+        "name": "Age & Income",
+        
+        "category_id": "2"
+    },
+    {
+        "name": "Company",
+        
+        "category_id": "3"
+    },
+    {
+        "name": "Product",
+        
+        "category_id": "3"
+    },
+    {
+        "name": "Appt Set",
+        
+        "category_id": "3"
+    },
+    {
+        "name": "TCPA",
+        
+        "category_id": "4"
+    },
+    {
+        "name": "3 Way",
+        
+        "category_id": "4"
+    },
+
+    {
+        "name": "180 sec buffer time",
+        
+        "category_id": "5"
+    }
+]

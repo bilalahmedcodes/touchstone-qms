@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Super Admin"
+    },
+    {
+        "name": "Director"
+    },
+    {
+        "name": "Manager"
+    },
+    {
+        "name": "Team Lead"
+    },
+    {
+        "name": "Associate"
+    }
+]
